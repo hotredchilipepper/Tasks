@@ -1,4 +1,4 @@
-n,m = [int(s) for s in input().split()]
+n,m = [int(s) for s in input().split()] # Входные данные длина,ширина доски
 a = [[0] * m for i in range(n)]
 for i in range(n):
     for j in range(m):
@@ -13,4 +13,4 @@ for i in range(n):
             else:
                 a[i][j] = '.'
 for row in a:
-    print(' '.join(row))
+    print(' '.join(row))  # На выводе получаем матрицу n*m состоящую из '.' и '*'.
