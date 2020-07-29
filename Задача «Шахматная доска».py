@@ -1,5 +1,5 @@
 n,m = [int(s) for s in input().split()] # Входные данные ширина,длина доски.
-a = [[0] * m for i in range(n)]        # Заполняю матрицу n*m нулями.
+a = [[0] * m for i in range(n)]         # Заполняю матрицу n*m нулями.
 for i in range(n):
     for j in range(m):
         if i % 2 == 0:
